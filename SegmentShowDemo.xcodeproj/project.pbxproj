@@ -13,6 +13,7 @@
 		4C3ED95A1EA0B11900A1EC17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3ED9581EA0B11900A1EC17 /* Main.storyboard */; };
 		4C3ED95C1EA0B11900A1EC17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3ED95B1EA0B11900A1EC17 /* Assets.xcassets */; };
 		4C3ED95F1EA0B11900A1EC17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3ED95D1EA0B11900A1EC17 /* LaunchScreen.storyboard */; };
+		4C3ED9681EA0B2F700A1EC17 /* SegmentSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3ED9671EA0B2F700A1EC17 /* SegmentSelectView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4C3ED95B1EA0B11900A1EC17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C3ED95E1EA0B11900A1EC17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C3ED9601EA0B11900A1EC17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3ED9661EA0B2F700A1EC17 /* SegmentSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentSelectView.h; sourceTree = "<group>"; };
+		4C3ED9671EA0B2F700A1EC17 /* SegmentSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentSelectView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		4C3ED94E1EA0B11900A1EC17 /* SegmentShowDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4C3ED9661EA0B2F700A1EC17 /* SegmentSelectView.h */,
+				4C3ED9671EA0B2F700A1EC17 /* SegmentSelectView.m */,
 				4C3ED9521EA0B11900A1EC17 /* AppDelegate.h */,
 				4C3ED9531EA0B11900A1EC17 /* AppDelegate.m */,
 				4C3ED9551EA0B11900A1EC17 /* ViewController.h */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C3ED9681EA0B2F700A1EC17 /* SegmentSelectView.m in Sources */,
 				4C3ED9571EA0B11900A1EC17 /* ViewController.m in Sources */,
 				4C3ED9541EA0B11900A1EC17 /* AppDelegate.m in Sources */,
 				4C3ED9511EA0B11900A1EC17 /* main.m in Sources */,
